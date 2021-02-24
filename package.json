@@ -1,7 +1,7 @@
 {
   "name": "movieapp2",
   "version": "0.1.0",
-  "homepage": "http://n20019/movieapp",
+  "homepage": "http://n20019.github.io/movieapp",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -16,6 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
+    "git": "git add . && git commit && git push origin master",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
